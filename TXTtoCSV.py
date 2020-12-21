@@ -6,9 +6,6 @@ import pandas as pd
 from tqdm import tqdm
 import argparse
 
-#annot_path = '/home/maralbek/Desktop/Codes/work/video_detections/WiderPerson/Annotations'
-#img_path = '/home/maralbek/Desktop/Codes/work/video_detections/WiderPerson/Images'
-
 parser = argparse.ArgumentParser(description='convert wideperson dataset annotations to CSV files for TF2')
 parser.add_argument('-a', '--annot_path', type=str, required=True, help='Annotations Path')
 parser.add_argument('-i', '--img_path', type=str, required=True, help='Path to images')
